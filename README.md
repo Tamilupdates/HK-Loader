@@ -22,7 +22,7 @@ A Simple **Shell Script** to make your Repo Deployable to Heroku.com (via CLI) &
 
 Press the below button to fast deploy to Heroku
 
-- [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/HK-Loader)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/HK-Loader)
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
 
@@ -90,7 +90,7 @@ git push heroku main -f
 
 - `REPO_BRANCH` - Repo Branch, you want to deploy with your REPO_URL.
   > `main`
-  
+
 - `START_CMD` - Trigger Command for your Bot to Run.
   > `bash start.sh` or `python main.py` or `python -m bot`
 
