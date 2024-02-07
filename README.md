@@ -8,6 +8,16 @@
 
 ---
 
+## Deploy on Heroku
+
+Press the below button to fast deploy to Heroku
+
+- [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/HK-Loader)
+
+then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables.
+
+---
+
 ## ***HK-Loader & Updater***
 
 <div align="center">
@@ -18,13 +28,23 @@ A Simple **Shell Script** to make your Repo Deployable to Heroku.com (via CLI) &
 
 ---
 
+### Mandatory Vars
+
+`REPO_URL` : Your Deploy Repo URL. `https://github.com/Tamilupdates/FZBypassBot`
+
+`REPO_BRANCH` : Your Deploy Repo Branch URL. `main`
+
+`START_CMD` :  Your Deploy START command. ``bash start.sh
+
+---
+
 ## ***Heroku CLI Guide***
 
 **Step 1 :** Git clone this Repo and change directory
 > Make sure git is Installed in your system or quick run `apt-get install git pip curl -y`
 
 ```shell
-git clone https://github.com/SilentDemonSD/HK-Loader && cd HK-Loader
+git clone https://github.com/Tamilupdates/HK-Loader && cd HK-Loader
 ```
 
 **Step 2 :** Now Install Heroku in your Sytem or checkout Official Heroku Deploy Docs, or Download via `apt-get` or `npm`
@@ -108,9 +128,3 @@ git push heroku main -f
   --  web: chmod +x hk_deploy.sh && ./hk_deploy.sh
   ++  worker: chmod +x hk_deploy.sh && ./hk_deploy.sh
   ```
-
----
-
-## ***References***
-- _Concept & Made by SilentDemonSD_
-- _Helped via git Docs & AriaAI_
