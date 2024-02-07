@@ -34,7 +34,7 @@ A Simple **Shell Script** to make your Repo Deployable to Heroku.com (via CLI) &
 
 `REPO_BRANCH` : Your Deploy Repo Branch URL. `main`
 
-`START_CMD` :  Your Deploy START command. ``bash start.sh
+`START_CMD` :  Your Deploy START command. `bash start.sh`
 
 ---
 
