@@ -85,12 +85,14 @@ git push heroku main -f
 ---
 
 ## Mandatory Vars
-- `REPO_URL` - Deploy Repository URL, Add Private Token if Repo is Private. `https://github.com/Tamilupdates/FZBypassBot`
+- `REPO_URL` - Deploy Repository URL, Add Private Token if Repo is Private.
+  > `https://github.com/Tamilupdates/FZBypassBot`
 
-- `REPO_BRANCH` - Repo Branch, you want to deploy with your REPO_URL. `main`
-
+- `REPO_BRANCH` - Repo Branch, you want to deploy with your REPO_URL.
+  > `main`
+  
 - `START_CMD` - Trigger Command for your Bot to Run.
-  > Examples : `python main.py` or `bash start.sh`
+  > `bash start.sh` or `python main.py` or `python -m bot`
 
 ---
 
