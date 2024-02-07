@@ -18,6 +18,7 @@ git remote add origin $repo_url
 git fetch origin -q
 git reset --hard origin/$repo_branch -q
 
+pip install --upgrade pip --quiet
 pip install -r requirements.txt --quiet
 
 start_cmd=$START_CMD
