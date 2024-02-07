@@ -28,16 +28,6 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 ---
 
-## Mandatory Vars
-
-`REPO_URL` : Your Deploy Repo URL. `https://github.com/Tamilupdates/FZBypassBot`
-
-`REPO_BRANCH` : Your Deploy Repo Branch URL. `main`
-
-`START_CMD` :  Your Deploy START command. `bash start.sh`
-
----
-
 ## ***Heroku CLI Guide***
 
 **Step 1 :** Git clone this Repo and change directory
@@ -94,13 +84,16 @@ git push heroku main -f
 
 ---
 
-## Config SetUp
-- `REPO_URL` - Deploy Repository URL, add Private Token if Repo is Private
-- `REPO_BRANCH` - Repo Branch, you want to deploy with your REPO_URL.
-- `START_CMD` - Trigger Command for your Bot to Run.
-  > Examples : `python -m bot` ( `-m` is for inside Dir startup) or `python main.py` or `bash start.sh`
+## Mandatory Vars
+`REPO_URL` - Deploy Repository URL, Add Private Token if Repo is Private. `https://github.com/Tamilupdates/FZBypassBot`
+
+`REPO_BRANCH` - Repo Branch, you want to deploy with your REPO_URL. `main`
+
+`START_CMD` - Trigger Command for your Bot to Run.
+  > Examples : `python main.py` or `bash start.sh` or`python -m bot` ( `-m` is for inside Dir startup)
 
 ---
+
 
 ## ***Important Notes:***
 - Repo made for Non-Docker Repos but can be customized for Docker Repos _(Read Ahead)_
