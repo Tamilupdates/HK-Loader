@@ -2,7 +2,17 @@
 
 [![](https://graph.org/file/97565a913c0133da1db6c.png)](#)
 
-[_CLI Deploy Guide_](#heroku-cli-guide)  |  [_Contact Me_](https://t.me/SilentDemonSD)
+[_CLI Deploy Guide_](#heroku-cli-guide)  |  [_Deploy Heroku_](#deploy-on-heroku)
+
+</div>
+
+---
+
+## ***HK-Loader & Updater***
+
+<div align="center">
+  
+A Simple **Shell Script** to make your Repo Deployable to Heroku.com (via CLI) & Auto Update and Fetch your Repo Updates / Commits on Restart with your Repository URL.
 
 </div>
 
@@ -18,17 +28,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 ---
 
-## ***HK-Loader & Updater***
-
-<div align="center">
-  
-A Simple **Shell Script** to make your Repo Deployable to Heroku.com (via CLI) & Auto Update and Fetch your Repo Updates / Commits on Restart with your Repository URL.
-
-</div>
-
----
-
-### Mandatory Vars
+## Mandatory Vars
 
 `REPO_URL` : Your Deploy Repo URL. `https://github.com/Tamilupdates/FZBypassBot`
 
