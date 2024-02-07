@@ -6,7 +6,6 @@
     "loader",
     "heroku"
   ],
-  "stack": "container",
   "repository": "https://github.com/Tamilupdates/HK-Loader",
   "env": {
     "REPO_URL": {
